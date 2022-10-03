@@ -1,0 +1,124 @@
+/* Sur Mobile */
+@media screen and (max-width: 500px) {
+    .container{
+        padding: 15px 15px;
+        align-items: center;
+        max-width: 500px;
+    }
+
+    .header-data {
+        display: flex;
+        padding: 0px;
+    }
+
+    .container .header .header-data .user-data{
+        padding-top: 15px;
+    }
+
+    .container .header .header-data .user-data .title{
+        font-size: 20px;
+    }
+
+    .header-data .user-data .role {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 15px;
+        background-color: #4595F4;
+        border-radius: 10px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    }
+
+    .container .header .header-data .avatar{
+        width: 140px;
+        height: 100px;
+    }
+
+
+
+    .skills .skills-list {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .skills .skill-item {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid #707070;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .lang .langs-list {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .lang .lang-item {
+        display: flex;
+        align-items: center;
+        margin-right: 0px;
+        border: 1px solid #707070;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+
+    .expert .expert-list {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .expert .expert-item {
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .form .form-row .radios .radio-bloc {
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form .champ textarea {
+        outline: none;
+        height: 100px;
+    }
+
+    .form .champ .error-message {
+        color: #FF0000;
+        font-size: 15px;
+    }
+
+    .form .champ button.btn-submit {
+        border-radius: 8px;
+        background-color: #4595F4;
+        color: #fff;
+        font-weight: 400;
+        font-size: 25px;
+        border: none;
+        margin-top: 45px;
+        padding: 0px 25px;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        cursor: pointer;
+        height: 50px;
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
